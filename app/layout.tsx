@@ -23,8 +23,9 @@ export const metadata: Metadata = {
 const Mark = () => (
   <span className="brand-mark" aria-hidden="true">
     <svg viewBox="0 0 34 34" role="img">
-      <path d="M3 4h7v15.1c0 5 2.2 7.5 6.7 7.5 4.4 0 6.6-2.5 6.6-7.5V4h7v15.4C30.3 28.6 25 33 16.7 33 8.2 33 3 28.6 3 19.4V4Z" />
-      <circle cx="27.5" cy="5.5" r="3.5" />
+      <path d="M4 27 13 17l6.5 6L30 8" />
+      <circle cx="4" cy="27" r="2.8" className="brand-mark-start" />
+      <circle cx="30" cy="8" r="4" className="brand-mark-signal" />
     </svg>
   </span>
 );
