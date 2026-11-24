@@ -42,14 +42,14 @@ export default function Home() {
         <p className="section-kicker">01 / WHAT WE DO</p>
         <div>
           <h2>We turn fragmented campaign data into decisions your team can act on.</h2>
-          <p>PixelSync works as an extension of your marketing team—from measurement design and campaign operations to weekly analysis and creative learning. Every recommendation connects back to a business goal.</p>
+          <p>UUSOP works as an extension of your marketing team—from measurement design and campaign operations to weekly analysis and creative learning. Every recommendation connects back to a business goal.</p>
         </div>
       </section>
 
       <section className="services-grid shell">
         <article className="service-card feature-card">
           <span className="card-num">01</span>
-          <div className="orbital" aria-hidden="true"><i/><i/><i/><b>PS</b></div>
+          <div className="orbital" aria-hidden="true"><i/><i/><i/><b>U</b></div>
           <div><p className="mini-label">MEDIA OPERATIONS</p><h3>Campaign planning &amp; activation</h3><p>Structure, launch and day-to-day stewardship across the right mix of paid channels.</p></div>
         </article>
         <article className="service-card">
@@ -84,7 +84,7 @@ export default function Home() {
         <div className="data-copy">
           <p className="section-kicker">03 / RESPONSIBLE DATA</p>
           <h2>Client-authorized access. Purpose-limited use.</h2>
-          <p>When a client connects an advertising platform, PixelSync accesses only the data and permissions needed to deliver agreed reporting and campaign services. Access is initiated by the client and can be revoked.</p>
+          <p>When a client connects an advertising platform, UUSOP accesses only the data and permissions needed to deliver agreed reporting and campaign services. Access is initiated by the client and can be revoked.</p>
           <ul><li><span>01</span> No sale of client or platform data</li><li><span>02</span> Least-privilege access and controlled retention</li><li><span>03</span> Platform policies remain the source of truth</li></ul>
           <Link className="text-link dark-link" href="/data-use">Read our data use statement <span>→</span></Link>
         </div>
@@ -100,4 +100,4 @@ export default function Home() {
   );
 }
 
-function MarkText() { return <span>PS</span>; }
+function MarkText() { return <span>U</span>; }

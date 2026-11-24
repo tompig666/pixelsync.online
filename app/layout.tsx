@@ -5,26 +5,27 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://uusop.com"),
   title: {
-    default: "PixelSync — Cross-platform advertising operations",
-    template: "%s — PixelSync",
+    default: "UUSOP — Cross-platform advertising operations",
+    template: "%s — UUSOP",
   },
   description:
-    "PixelSync is an advertising operations agency helping businesses plan, analyze and optimize campaigns across TikTok, Meta, Google and other platforms.",
+    "UUSOP is an advertising operations agency helping businesses plan, analyze and optimize campaigns across TikTok, Meta, Google and other platforms.",
   openGraph: {
-    title: "PixelSync — Advertising, in one clear operating view",
+    title: "UUSOP — Advertising, in one clear operating view",
     description:
       "Cross-platform campaign analysis, media operations and practical growth support.",
     url: "https://uusop.com",
-    siteName: "PixelSync",
+    siteName: "UUSOP",
     type: "website",
   },
 };
 
 const Mark = () => (
   <span className="brand-mark" aria-hidden="true">
-    <i />
-    <i />
-    <i />
+    <svg viewBox="0 0 34 34" role="img">
+      <path d="M3 4h7v15.1c0 5 2.2 7.5 6.7 7.5 4.4 0 6.6-2.5 6.6-7.5V4h7v15.4C30.3 28.6 25 33 16.7 33 8.2 33 3 28.6 3 19.4V4Z" />
+      <circle cx="27.5" cy="5.5" r="3.5" />
+    </svg>
   </span>
 );
 
@@ -33,9 +34,9 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="en">
       <body>
         <header className="site-header">
-          <Link className="brand" href="/" aria-label="PixelSync home">
+          <Link className="brand" href="/" aria-label="UUSOP home">
             <Mark />
-            <span>PixelSync</span>
+            <span className="brand-word">UUSOP</span>
           </Link>
           <nav className="primary-nav" aria-label="Primary navigation">
             <Link href="/services">Services</Link>
@@ -49,7 +50,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {children}
         <footer className="site-footer">
           <div className="footer-lead">
-            <Link className="brand brand-footer" href="/"><Mark /><span>PixelSync</span></Link>
+            <Link className="brand brand-footer" href="/"><Mark /><span className="brand-word">UUSOP</span></Link>
             <p>Clearer signals. Better media decisions.</p>
           </div>
           <div className="footer-links">
@@ -58,7 +59,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
             <div><span>Contact</span><a href="mailto:hello@uusop.com">hello@uusop.com</a><Link href="/contact">New business</Link></div>
           </div>
           <div className="footer-bottom">
-            <span>© 2026 PIXEL SYNC (HK) LIMITED</span>
+            <span>© 2026 UUSOP · OPERATED BY PIXEL SYNC (HK) LIMITED</span>
             <span>Hong Kong · Working globally</span>
             <span>Independent advertising agency</span>
           </div>
