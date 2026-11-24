@@ -3,7 +3,7 @@ import Link from "next/link";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://pixelsync.online"),
+  metadataBase: new URL("https://uusop.com"),
   title: {
     default: "PixelSync — Cross-platform advertising operations",
     template: "%s — PixelSync",
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title: "PixelSync — Advertising, in one clear operating view",
     description:
       "Cross-platform campaign analysis, media operations and practical growth support.",
-    url: "https://pixelsync.online",
+    url: "https://uusop.com",
     siteName: "PixelSync",
     type: "website",
   },
@@ -55,7 +55,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <div className="footer-links">
             <div><span>Explore</span><Link href="/services">Services</Link><Link href="/data-use">Data use</Link><Link href="/about">About</Link></div>
             <div><span>Legal</span><Link href="/privacy">Privacy Policy</Link><Link href="/terms">Terms of Service</Link></div>
-            <div><span>Contact</span><a href="mailto:hello@pixelsync.online">hello@pixelsync.online</a><Link href="/contact">New business</Link></div>
+            <div><span>Contact</span><a href="mailto:hello@uusop.com">hello@uusop.com</a><Link href="/contact">New business</Link></div>
           </div>
           <div className="footer-bottom">
             <span>© 2026 PIXEL SYNC (HK) LIMITED</span>
